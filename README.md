@@ -1,0 +1,3 @@
+- Create a Username and a corresponding Password, then click "create"
+- One created, you can try to use your new credentials to 'login'
+- Try reloading the page to see if your information saved!
