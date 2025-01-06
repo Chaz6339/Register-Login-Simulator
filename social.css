@@ -1,0 +1,50 @@
+h1 {
+
+    color: blue;
+}
+
+
+.overD {
+    
+    width: max-content;
+    margin-left:auto;
+    margin-right: auto;
+    background-color: rgb(140, 238, 217);
+    border: solid;
+    border-color: rgb(77, 139, 126);
+    padding: 2%
+    
+    }
+
+#titleLog {
+
+text-align: center;
+
+}
+
+
+
+input {
+
+
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid;
+    border-color:rgb(176, 176, 128);
+    border-width: 2px;
+    border-radius: 25px;
+}
+
+
+button {
+border-radius: 25px;
+
+
+}
+
+input:focus {
+
+outline: none;
+    
+}

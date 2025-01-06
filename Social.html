@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <link rel="stylesheet" href="social.css">
+
+    <body>
+        
+        <!--<h1 id = "title">Social Media Script</h1>-->
+        <h2 id = "feed-el"></h2>
+
+        
+        <input type ="text" id = "postText">
+        <button id = "uploadP" onclick = "upload()">Upload</button>
+
+        <div class = "overD">
+            <div class = "createD">
+                <h1 id = "titleLog">Create Username/Password</h1>  <!----Creating Credentials-->
+                <div class = "createPortal">
+                    <label for="username" name = "username">User:</label>
+                    <input type ="text" placeholder = "Ex. Chuck" id = "usernameCreate" name = "usernameCreate">
+                    <label for = "passwordCreate" name = "passwordCreate">Password:</label>
+                    <input type = "password" name = "passwordCreate" id = "passcode">
+                    <button id = "submit-B" onclick = "create()">Create</button>
+                </div>
+
+
+                <p id = "greeting-el"></p>
+            </div>
+
+            <div class = "LogD">
+                <h1 id = "titleLog">Login Check</h1>
+                <label for="usernamee" name = "usernamee">User:</label>
+                <input type ="text" placeholder = "Ex. Chuck" id = "usernamee" name = "usernamee">
+                <label for = "passwordLL" name = "passwordLL">Password:</label>
+                <input type = "password" name = "passwordLL" id = "passcodee">
+                <button class = "UI" id = "submit-B" onclick = "login()">Log in</button>
+            </div>
+
+        </div>
+        <script src ="Social.js"></script>
+    </body>
+</html>
